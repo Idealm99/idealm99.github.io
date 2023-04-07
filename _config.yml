@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "이상민"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "나는 컴퓨터공학 전공 대학생입니다."
+  location         : "경기도 안성시"
+  email            : "skyblack156@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
