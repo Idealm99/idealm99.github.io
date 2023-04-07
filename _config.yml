@@ -110,9 +110,9 @@ author:
   location         : "경기도 안성시"
   email            : "skyblack156@gmail.com"
   links:
-    - label: "skyblack156@gmail.com"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:skyblack156@gmail.com"
+      # url: "mailto:skyblack156@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
