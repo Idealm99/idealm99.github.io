@@ -7,9 +7,9 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@front-face {
-  fornt-family: 'Dongle';
+@font-face {
+  font-family: 'Dongle';
   src: url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
-  fornt-weight: normal;
-  fornt-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
