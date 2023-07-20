@@ -2,3 +2,14 @@
 layout: home
 author_profile: true
 ---
+
+<!-- index.html 또는 home.html 등의 레이아웃 파일 -->
+
+<div class="category-list">
+  <h2>카테고리</h2>
+  <ul>
+    {% for category in site.categories %}
+      <li><a href="{{ '/categories/' | append: category[0] }}">{{ category[0] }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
