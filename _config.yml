@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "이상민"
   avatar           : "/assets/KakaoTalk_20230720_131527402.jpg"
-  bio              : "나는 컴퓨터공학 전공 대학생입니다."
-  location         : "경기도 안성시"
+  bio              : "컴퓨터공학 전공 대학생입니다."
+  location         : "경기도"
   email            : "skyblack156@gmail.com"
   links:
     - label: "Email"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Idealm99/idealm99.github.io/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
