@@ -4,15 +4,6 @@ layout: archive
 
 {{ content }}
 
-<div class="category-list">
-  <h2>카테고리</h2>
-  <ul>
-    {% for category in site.categories %}
-      <li><a href="{{ '/categories/' | append: category[0] }}">{{ category[0] }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
