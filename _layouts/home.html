@@ -4,13 +4,6 @@ layout: archive
 
 {{ content }}
 
-    <div class="sidebar-section">
-    <h2>category</h2>
-    <ul>
-      {% for category in site.categories %}
-        <li><a href="{{ site.baseurl }}/categories/{{ category | first | slugify }}">{{ category | first }}</a></li>
-      {% endfor %}
-    </ul>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
