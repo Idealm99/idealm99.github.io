@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "이상민"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/KakaoTalk_20230720_131527402.jpg"
   bio              : "나는 컴퓨터공학 전공 대학생입니다."
   location         : "경기도 안성시"
   email            : "skyblack156@gmail.com"
