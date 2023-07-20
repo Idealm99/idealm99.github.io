@@ -290,3 +290,9 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# 카테고리 목록
+categories:
+  - coding
+  - tutorial
+  - etc
