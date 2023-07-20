@@ -34,6 +34,16 @@
         {% include_cached footer.html %}
       </footer>
     </div>
+    <!-- 카테고리 목록 -->
+    <div class="sidebar-section">
+    <h2>카테고리</h2>
+    <ul>
+      {% for category in site.categories %}
+        <li><a href="{{ site.baseurl }}/categories/{{ category | first | slugify }}">{{ category | first }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
 
     {% include scripts.html %}
 
