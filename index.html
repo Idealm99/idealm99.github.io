@@ -4,12 +4,3 @@ author_profile: true
 ---
 
 
-
-<div class="category-list">
-  <h2>category</h2>
-  <ul>
-    {% for category in site.categories %}
-      <li><a href="{{ '/categories/' | append: category[0] }}">{{ category[0] }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
