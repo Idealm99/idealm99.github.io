@@ -1,10 +1,11 @@
 ---
-title: "About Computer Vision"
-layout: category
+title: "C++ 프로그래밍"
+layout: archive
+permalink: categories/cpp
 author_profile: true
-taxonomy: Computer Vision
-toc: true
-comments: true
-toc_sticky: true
+sidebar_main: true
 ---
-# permalink: /categories/Computer_Vision/
+
+
+{% assign posts = site.categories.Cpp %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
