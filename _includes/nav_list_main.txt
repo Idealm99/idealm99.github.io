@@ -8,11 +8,11 @@
       📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</span> <span style="font-family:'Coming Soon';">{{ sum }}</span> <span style="font-family:'Cafe24Oneprettynight';">개</span> 
     </li>
     <li>
-      <span class="nav__sub-title">C/C++/C#</span>
+      <span class="nav__sub-title">C++</span>
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "C++" %}
-            <li><a href="/categories/cpp" class="">C ++ ({{ category[1].size }})</a></li>
+            <li><a href="/categories/cpp" class="">C++ ({{ category[1].size }})</a></li>
           {% endif %}
         {% endfor %}
       </ul>
