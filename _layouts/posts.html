@@ -15,6 +15,15 @@ layout: archive
   {% endfor %}
 </ul>
 
+<div class="category-list">
+  <h3>카테고리</h3>
+  <ul>
+    {% for category in page.categories %}
+      <li><a href="/categories/{{ category | downcase | url_encode }}">{{ category }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
